@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *int _isalpha ->  checks for alphabetic character.
+ *_isalpha ->  checks for alphabetic character.
  *
  *@c: the checked charakter
  *
@@ -12,6 +12,6 @@ int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
 		return (1);
-	else 
+	else
 		return (0);
-} 
+}
